@@ -1,7 +1,7 @@
 # maven-test-action
 
 ![GitHub last commit (by committer)](https://img.shields.io/github/last-commit/jayllyz/setupWSL)
-![Maven tests](https://github.com/jayllyz/maven-test-action/actions/workflows/maven.yml/badge.svg)
+[![Maven CI](https://github.com/Jayllyz/maven-test-action/actions/workflows/maven.yml/badge.svg)](https://github.com/Jayllyz/maven-test-action/actions/workflows/maven.yml)
 
 This action runs `mvn test` on a maven project.
 I've seen a lot of actions using "setup-java" and then running maven, but I wanted something faster so I used the `maven` docker image to run the tests.
