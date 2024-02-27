@@ -14,8 +14,13 @@ name: Maven CI
 
 on:
   push:
+    branches:
+      - main
   pull_request:
 
+permissions:
+  contents: read
+   
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
