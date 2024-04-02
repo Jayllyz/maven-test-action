@@ -24,7 +24,7 @@ permissions:
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
-    container: maven:3.9-eclipse-temurin-21
+    container: maven:3.9-eclipse-temurin-21-alpine
 
     steps:
       - uses: actions/checkout@v4
